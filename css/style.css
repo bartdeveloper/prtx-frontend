@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.data {
+	padding: 15px;
+}
+
+#result {
+	margin-top: 15px;
+}
+
+.item {
+	padding: 15px;
+	background-color: #e7f2fb;
+	border-bottom: 1px solid #333;
+    margin-bottom: 10px;
+}
+
+.item:hover {
+	background-color: #c0c0c0;
+	cursor: pointer;
+}
+
+.item p:nth-of-type(2){
+	font-size: 14px;
+}
