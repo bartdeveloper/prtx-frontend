@@ -18,6 +18,11 @@ $(document).ready(function() {
         
         let query = $("#query").val();
 
+        if(query.length == 0){
+			$("#result").html('<p class="alert alert-warning">Enter something.</strong></p>');
+			return;
+		} 
+
 		fetch(`${api}/search/?query=${query}`)
 		.then(resp => resp.json())
 		.then(resp => {
