@@ -16,7 +16,7 @@ body {
 .item {
 	padding: 15px;
 	background-color: #e7f2fb;
-	border-bottom: 1px solid #333;
+    border-bottom: 1px solid #333;
     margin-bottom: 10px;
 }
 
