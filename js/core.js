@@ -16,9 +16,9 @@ $(document).ready(function() {
 
 	function searchProducts(){
         
-        let query = $("#query").val();
+        	let query = $("#query").val();
 
-        if(query.length == 0){
+        	if(query.length == 0){
 			$("#result").html('<p class="alert alert-warning">Enter something.</strong></p>');
 			return;
 		} 
